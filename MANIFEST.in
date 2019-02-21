@@ -1,4 +1,12 @@
-neuropycon_data/data/data_con/*.txt
-neuropycon_data/data/data_con/*.npy
 
-neuropycon_data/data/data_nii/*.nii
+include neuropycon_data/data/data_con_meg/*
+include neuropycon_data/data/data_con_inv_ts/*
+
+include neuropycon_data/data/data_con/*
+include neuropycon_data/data/data_con/data_graph/*
+
+include neuropycon_data/data/data_nii/*
+include neuropycon_data/data/data_nii/Atlas/*
+
+
+include neuropycon_data/data/data_signif_mat/*
